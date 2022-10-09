@@ -4842,6 +4842,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -5819199730051007714, guid: df9bdf5b87bef2441a859b034afdc343, type: 3}
+      propertyPath: trailEffect
+      value: 
+      objectReference: {fileID: 6754735914316168100, guid: 6f220f27c7e955447a9328c9fa0dfd98, type: 3}
     - target: {fileID: 6121619077929215705, guid: df9bdf5b87bef2441a859b034afdc343, type: 3}
       propertyPath: m_RootOrder
       value: 6

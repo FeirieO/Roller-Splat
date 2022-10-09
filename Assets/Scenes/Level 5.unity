@@ -756,14 +756,14 @@ MonoBehaviour:
   sounds:
   - name: ballroll
     clip: {fileID: 8300000, guid: 052bd53d12a11dd4ca1de704f784318b, type: 3}
-    volume: 0.838
-    pitch: 1.12
+    volume: 0.8
+    pitch: 1.1
     loop: 0
     source: {fileID: 0}
   - name: nextlevel
     clip: {fileID: 8300000, guid: b6ed63efcf933394a9a4288dc3cd8333, type: 3}
-    volume: 0.567
-    pitch: 0.34
+    volume: 0.5
+    pitch: 0.3
     loop: 0
     source: {fileID: 0}
 --- !u!4 &157214674

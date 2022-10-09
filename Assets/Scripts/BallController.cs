@@ -6,7 +6,7 @@ public class BallController : MonoBehaviour
 {
     public Rigidbody rb;
     public float speed = 15;
-    public GameObject trailEffect;
+
     public int minSwipeRecognition = 500;
 
     private bool isTraveling;
@@ -71,7 +71,7 @@ public class BallController : MonoBehaviour
         if (Input.GetMouseButton(0))
         {
             audioManager.Play("ballroll");
-            follow();
+            //follow();
             // Where is the mouse now?
             swipePosCurrentFrame = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
 
@@ -124,8 +124,8 @@ public class BallController : MonoBehaviour
         isTraveling = true;
     }
 
-    void follow()
-    {
-        Instantiate(trailEffect.transform.parent = trailEffect.transform);
-    }
+    //void follow()
+    //{
+    //    Instantiate(trailEffect.transform.parent = trailEffect.transform);
+    //}
 }
