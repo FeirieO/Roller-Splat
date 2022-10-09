@@ -71,6 +71,7 @@ public class BallController : MonoBehaviour
         if (Input.GetMouseButton(0))
         {
             audioManager.Play("ballroll");
+            follow();
             // Where is the mouse now?
             swipePosCurrentFrame = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
 
